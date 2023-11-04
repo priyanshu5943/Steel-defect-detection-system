@@ -8,6 +8,8 @@ The production process of flat sheet steel is especially delicate. From heating 
 In this competition, you’ll help engineers improve the algorithm by localizing and classifying surface defects on a steel sheet.
 
 If successful, you’ll help keep manufacturing standards for steel high and enable Severstal to continue their innovation, leading to a stronger, more efficient world all around us.
+following is an example of showcasing the result the left side contain a random steel image and right side is predict mask, based on the defect location the algorithm di pretty good job in locating them.
 
+![Screenshot (8080)](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/b4d1c2d6-4cba-468d-a7d1-89ef7a9295c5)
 
 
