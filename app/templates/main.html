@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <style>
+        body {
+            background-image: url("/static/main.jpeg");
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column; /* This will stack items vertically */
+            align-items: flex-start;  /* Adjusted to top */
+            justify-content: flex-start;  /* Adjusted to left */
+            color: #fff;
+            padding: 20px; /* Padding to give some space from edges */
+        }
+
+        .link-container {
+            background-color: green; /* Green background color for the box */
+            border-radius: 5px;  /* Rounded corners for the box */
+            padding: 15px;  /* Inner padding for the box */
+            margin-bottom: 10px; /* Space between each container */
+        }
+
+        a {
+            color: #fff; /* White color text */
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="link-container">
+        <a href="/epoxy">Epoxy Viscosity Prediction</a> <!-- This line is added -->
+    </div>
+    
+    <div class="link-container">
+        <a href="/steel_defect">Steel Surface Defect Detection</a>
+    </div>
+
+    <div class="link-container">
+        <a href="/predict">Predict Yield Strength of Steel</a>
+    </div>
+
+    <div class="link-container">
+        <a href="/casting">Casting defect Detection</a>
+    </div>
+
+    <div class="link-container">
+        <a href="/concrete">Predict Concrete Strength</a>
+    </div>
+
+</body>
+</html>

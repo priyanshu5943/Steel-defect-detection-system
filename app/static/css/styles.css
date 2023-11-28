@@ -1,0 +1,81 @@
+/* Base Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('/static/steel_bg.jpg') no-repeat center center fixed; 
+    background-size: cover; /* This ensures the image covers the whole viewport */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #444;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Flexbox Grid */
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Added to make sure rows wrap when in a small viewport */
+}
+
+.column {
+    flex: 33.33%;
+    padding: 10px;
+    box-sizing: border-box; /* This ensures padding is included in width calculations */
+}
+
+/* Result Page Styling */
+.result-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

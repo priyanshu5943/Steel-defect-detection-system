@@ -1,0 +1,86 @@
+
+
+/* Base Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #444;
+}
+
+form {
+    max-width: 2000px; /* Increased max-width */
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (rest of the styles remains the same) ... */
+
+/* Result Page Styling */
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Flexbox Grid */
+.row {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.column {
+    flex-basis: calc(100% / 3 - 20px);
+    max-width: calc(100% / 3 - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.result-container {
+    max-width: 1200px; /* Increased max-width */
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 40px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

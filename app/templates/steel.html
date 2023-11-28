@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Segmentation App</title>
+    <link rel="stylesheet" href="/static/css/steelresult.css">
+    <style>
+        .center-content {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-content">
+        <h1>Steel Surface defect Segmentation</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".jpg, .png, .jpeg">
+            <input type="submit" value="Upload and show">
+        </form>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Segmentation Result</title>
+    <style>
+        .center-content {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-content">
+        <h1>Original Image</h1>
+        <img src="{{ url_for('static', filename=original_image) }}" alt="Original Image" width="500",height="150">
+        
+        <h1>Segmented Image</h1>
+        <img src="{{ url_for('static', filename=segmented_image) }}" alt="Segmented Image" width="500",height="150">
+    </div>
+</body>
+</html>

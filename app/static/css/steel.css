@@ -1,0 +1,70 @@
+/* Your existing CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/casting.webp');
+    color: #333;
+}
+
+h1.center {
+    text-align: center; /* Center the heading text */
+    margin-top: 30px;
+    color: #fbfbfb;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Error message */
+p[style*="color:red"] {
+    color: red;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Image styling */
+img[alt="Uploaded Image"] {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Epoxy Viscosity prediction</title>
+    <link rel="stylesheet" href="static/css/epoxy.css">
+    <style>
+        .prediction-text {
+            font-size: 36px; /* Adjust this value according to your desired font size */
+        }
+    </style>
+    
+</head>
+
+<body>
+    <h2>Epoxy Viscosity prediction</h2>
+    <form action="/epoxy_predict" method="POST">
+
+        <!-- Numeric Attributes -->
+        <div class="row">
+            <div class="column">
+                <label for="temperature">Temperature (℃)</label>
+                <input type="text" id="temperature" name="temperature" required>
+            </div>
+            <div class="column">
+                <label for="ratio_of_epoxy_resin_to_diluent">Ratio of Epoxy Resin to Diluent</label>
+                <input type="text" id="ratio_of_epoxy_resin_to_diluent" name="ratio_of_epoxy_resin_to_diluent" required>
+            </div>
+            <div class="column">
+                <label for="epoxy_resin">Epoxy Resin</label>
+                <select id="epoxy_resin" name="epoxy_resin" required>
+                    <option value="epoxy_resin_bisphenol_a">Epoxy Resin_bisphenol A</option>
+                    <option value="epoxy_resin_ester_cyclic">Epoxy Resin_ester cyclic</option>
+                    <option value="epoxy_resin_phenolic">Epoxy Resin_phenolic</option>
+                    <!-- ... (options remain unchanged) ... -->
+                </select>
+            </div>
+        </div>
+
+        <!-- Add the additional row here -->
+        <div class="row">
+            <div class="column">
+                <div class="feature-box">
+                    <label for="additional_group_of_epoxy_resin">Additional Group of Epoxy Resin</label>
+                    <select id="additional_group_of_epoxy_resin" name="additional_group_of_epoxy_resin" required>
+                        <option value="additional_group_of_epoxy_resin_amyl_phenol_acid">Additional Group of Epoxy resin_Amyl phenol acid  </option>
+                        <option value="additional_group_of_epoxy_resin_h">Additional Group of Epoxy resin_H</option>
+                        <option value="additional_group_of_epoxy_resin_acrylate">Additional Group of Epoxy resin_acrylate</option>
+                        <option value="additional_group_of_epoxy_resin_acrylate_">Additional Group of Epoxy resin_acrylate_</option>
+                        <option value="additional_group_of_epoxy_resin_methacrylate">Additional Group of Epoxy resin_methacrylate</option>
+                    </select>
+                </div>
+            </div>
+            <div class="column">
+                <div class="feature-box">
+                    <label for="diluent">Diluent</label>
+                    <select id="diluent" name="diluent" required>
+                        <option value="diluent_furan_acetone">Diluent_Furan acetone</option>
+                        <option value="diluent_others">Diluent_Others</option>
+                        <option value="diluent_acrylate">Diluent_acrylate</option>
+                        <option value="diluent_epoxy_oil">Diluent_epoxy oil</option>
+                        <option value="diluent_ester">Diluent_ester</option>
+                        <option value="diluent_glycidyl_ether">Diluent_glycidyl_ether</option>
+                        <option value="diluent_phenol">Diluent_phenol</option>
+                        <option value="diluent_phenolic">Diluent_phenolic</option>
+                        <option value="diluent_polysiloxane">Diluent_polysiloxane</option>
+                    </select>
+                </div>
+            </div>
+            <div class="column">
+                <div class="feature-box">
+                    <label for="additional_group_of_diluent">Additional Group of Diluent</label>
+                    <select id="additional_group_of_diluent" name="additional_group_of_diluent" required>
+                        <option value="additional_group_of_diluent_1_4butanediol">Additional Group of Diluent_1, 4-butanediol</option>
+                        <option value="additional_group_of_diluent_1_6hexanediol">Additional Group of Diluent_1, 6-hexanediol</option>
+                        <option value="additional_group_of_diluent_bisphosphonatepiperazine_hydroxyl">Additional Group of Diluent_Bisphosphonate-piperazine hydroxyl</option>
+                        <option value="additional_group_of_diluent_cardanol_was_grafted_with_silicone">Additional Group of Diluent_Cardanol was grafted with silicone</option>
+                        <option value="additional_group_of_diluent_dipropylene_glycol">Additional Group of Diluent_Dipropylene glycol</option>
+                        <option value="additional_group_of_diluent_epoxy_ricin_acid">Additional Group of Diluent_Epoxy ricin acid</option>
+                        <option value="additional_group_of_diluent_h">Additional Group of Diluent_H</option>
+                        <option value="additional_group_of_diluent_parsley_methyl_group">Additional Group of Diluent_Parsley methyl group</option>
+                        <option value="additional_group_of_diluent_polyoxycardanol">Additional Group of Diluent_Polyoxycardanol</option>
+                        <option value="additional_group_of_diluent_anacardol_">Additional Group of Diluent_anacardol_</option>
+                        <option value="additional_group_of_diluent_benzyl_alcohol">Additional Group of Diluent_benzyl alcohol</option>
+                        <option value="additional_group_of_diluent_butyl_">Additional Group of Diluent_butyl_</option>
+                        <option value="additional_group_of_diluent_cyclohexene_oxide">Additional Group of Diluent_cyclohexene oxide</option>
+                        <option value="additional_group_of_diluent_diglycol">Additional Group of Diluent_diglycol</option>
+                        <option value="additional_group_of_diluent_epoxy_group">Additional Group of Diluent_epoxy group</option>
+                        <option value="additional_group_of_diluent_eugenol">Additional Group of Diluent_eugenol</option>
+                        <option value="additional_group_of_diluent_heterocycle">Additional Group of Diluent_heterocycle</option>
+                        <option value="additional_group_of_diluent_methylene">Additional Group of Diluent_methylene</option>
+                        <option value="additional_group_of_diluent_methyl_">Additional Group of Diluent_methyl_</option>
+                        <option value="additional_group_of_diluent_nbutyl">Additional Group of Diluent_n-butyl</option>
+                        <option value="additional_group_of_diluent_nonyl">Additional Group of Diluent_nonyl</option>
+                        <option value="additional_group_of_diluent_o-xylene">Additional Group of Diluent_o-xylene</option>
+                        <option value="additional_group_of_diluent_octyl_group_">Additional Group of Diluent_octyl group_</option>
+                        <option value="additional_group_of_diluent_paminophenol">Additional Group of Diluent_paminophenol</option>
+                        <option value="additional_group_of_diluent_phenyl">Additional Group of Diluent_phenyl</option>
+                        <option value="additional_group_of_diluent_phenylethylene_oxide">Additional Group of Diluent_phenylethylene oxide</option>
+                        <option value="additional_group_of_diluent_phosphoric_acid">Additional Group of Diluent_phosphoric acid</option>
+                        <option value="additional_group_of_diluent_propylene_glycol">Additional Group of Diluent_propylene glycol</option>
+                        <option value="additional_group_of_diluent_styrene">Additional Group of Diluent_styrene</option>
+                        <option value="additional_group_of_diluent_thymol">Additional Group of Diluent_thymol</option>
+                        <!-- Add more options as needed -->
+                    
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction_text %}
+    <h3 class="prediction-text">{{ prediction_text }}</h3>
+    {% endif %}
+    
+</body>
+
+</html>
+
+

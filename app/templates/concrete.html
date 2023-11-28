@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Concrete Strength Predictor</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h2>Concrete Strength Predictor</h2>
+    <form action="/concrete" method="post">
+        {% for feature in ['CementComponent', 'BlastFurnaceSlag', 'FlyAshComponent', 'WaterComponent', 'FineAggregateComponent', 'AgeInDays'] %}
+        <label for="{{ feature }}">{{ feature }}</label>
+        <input type="text" id="{{ feature }}" name="{{ feature }}" required><br><br>
+        {% endfor %}
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

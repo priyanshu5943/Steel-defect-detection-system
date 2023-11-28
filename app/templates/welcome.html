@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Materials Science</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <style>
+        body {
+            background-image: url("/static/welcome.png");
+            background-size: cover;
+            height: 65vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center horizontally */
+            justify-content: center; /* Center vertically */
+            color: #fdef24;
+            font-size: 24px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h2, h3, p {
+            margin: 0;
+            padding: 5px 0;
+        }
+
+        h2 {
+            color: #fdef24;
+            animation: enlargeText 2s forwards;  /* Animation to enlarge the text */
+            font-size: 5px;  /* Initial font size adjusted */
+        }
+
+        h3 {
+            color: #feed03;
+            animation: enlargeText 2s forwards;  /* Animation to enlarge the text */
+            font-size: 5px;  /* Initial font size adjusted */
+        }
+
+        p {
+            margin-top: 20px; /* Adjusted to place the text further below */
+        }
+
+        @keyframes enlargeText {
+            to {
+                font-size: 70px;  /* Final enlarged font size */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to materials</h2>
+    <h3>Science</h3>
+  
+    <p>submitted by :Priyanshu shukla</p>
+    <p>under the guidance of : Dr. Ramesh Kumar Nayak</p>
+    <p>Press Enter to Continue</p>
+
+    <script>
+        document.addEventListener("keydown", function(event) {
+            if(event.keyCode == 13) {
+                window.location.href = "/ml";
+            }
+        });
+    </script>
+</body>
+</html>
