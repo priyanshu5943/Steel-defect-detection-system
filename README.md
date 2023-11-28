@@ -1,3 +1,5 @@
+Built with 🛠️
+  ![image](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/72f718e1-14de-44b1-a0fc-84ebde203835)
 
 Steel is one of the most important building materials of modern times. Steel buildings are resistant to natural and man-made wear which has made the material ubiquitous around the world. To help make production of steel more efficient, this competition will help identify defects.
 
