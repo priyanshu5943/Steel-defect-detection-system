@@ -26,12 +26,13 @@ You can access it at  http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com
 
 # MOTIVATION 💪
 
-> Materials are one of the most important building block of modern world.
-> Its difficult and inefficient to repeat the tedious task of experimenting everything in the lab moreever it is costly.
-> The ongoing AI revolution has the potential to transform society far beyond  its current applications in science and technology. A key driver of this  revolution is machine learning (ML), for which increasingly sophisticated  methods have been developed.Through which the accelerated materials discovery can be achieved as well as automating the materials and steel industry.
-> In this project, I present a website in which the following applications are implemented; steel surface defect detection , casting defefct detection , epoxy viscosity prediction , steel strength prediction and concrete strength prediction.
-         > In the steel surfacce defect detection application, the user can provide the image surface  of steel  from their side and the application will predict which 
-           where the defect are present and clssify it non-defected by showing no segemented images.
+### Materials are one of the most important building block of modern world.
+###  Its difficult and inefficient to repeat the tedious task of experimenting everything in the lab moreever it is costly.
+### The ongoing AI revolution has the potential to transform society far beyond  its current applications in science and technology. A key driver of this  revolution is machine learning (ML), for which increasingly sophisticated  methods have been developed.Through which the accelerated materials discovery can be achieved as well as automating the materials and steel industry.
+### In this project, I present a website in which the following applications are implemented; steel surface defect detection , casting defefct detection , epoxy viscosity prediction , steel strength prediction and concrete strength prediction.
+         ####  In the steel surfacce defect detection application, the user can provide the image surface  of steel  from 
+               their side and the application will predict  where the defect are present and clssify it non-defected by 
+               showing no segemented images.
          > For the epoxy viscosity prediction  application, the user can input the epoxy  data  and the application will predict what is the visoosity of the epoxy.
          > For the steel strength predictor application, the user can input the steel  data the conent of each metal and alloys  and the application will predict what the 
          is the strength of the given steel.
