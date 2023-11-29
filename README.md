@@ -9,13 +9,16 @@ You can access it at  http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com
 # DEMO
 
    ## steel surfacce defect detection 
-   ![image](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/1f30d83f-c7a8-42e8-8517-3239d0ca996a)
+   ![image](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/270928e9-f703-43ba-8fdb-149f9d9a74ac)
+
 
    ## casting defect detection
-   ![image](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/5e0954a3-4952-421b-a631-a3dc1db16f5a)
+   ![image](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/aa5975f5-e915-42af-bda7-b38b70a32a41)
+
 
    ## epoxy viscosity prediction
-   ![image](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/8c3f00dd-02f9-4261-a5d1-05b57fce9bbd)
+   ![image](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/28b9dfa1-3ca7-419a-8e34-7220221c1dfd)
+
 
    
 
@@ -51,5 +54,8 @@ You can access it at  http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com
 
 
 # Built with 🛠️
+
+![image](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/5e25b733-fe2e-4b1e-9d0e-2ec05018b71f)
+
 
 
