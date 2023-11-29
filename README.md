@@ -7,7 +7,7 @@ This website is deployed at AWS
 You can access it at  http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com:8080
 
 # DEMO
-   > Steel defect detection 
+   
 
 # MOTIVATION 💪
 
@@ -26,7 +26,7 @@ You can access it at  http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com
 
 # DATA SOURCE 📊
 
-steel surface images https://www.kaggle.com/competitions/severstal-steel-defect-detection/data
+## steel surface images https://www.kaggle.com/competitions/severstal-steel-defect-detection/data
 Eposy resin data https://www.kaggle.com/datasets/priyanshu594/eposy-resin-dataset
 steel strength data https://www.kaggle.com/datasets/priyanshu594/steel-strength-data
 casting images data https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product
