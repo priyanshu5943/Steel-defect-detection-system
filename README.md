@@ -4,7 +4,7 @@ A web app that can help mettalurgist in various fields reducing their workload a
 # DEPLOYMENT 🚀
 
 This website is deployed at AWS
-You can access it http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com:8080
+You can access it at  http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com:8080
 
 # DEMO
    > Steel defect detection 
