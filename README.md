@@ -30,7 +30,7 @@ You can access it at  http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com
 ###  Its difficult and inefficient to repeat the tedious task of experimenting everything in the lab moreever it is costly.
 ### The ongoing AI revolution has the potential to transform society far beyond  its current applications in science and technology. A key driver of this  revolution is machine learning (ML), for which increasingly sophisticated  methods have been developed.Through which the accelerated materials discovery can be achieved as well as automating the materials and steel industry.
 ### In this project, I present a website in which the following applications are implemented; steel surface defect detection , casting defefct detection , epoxy viscosity prediction , steel strength prediction and concrete strength prediction.
-          In the steel surfacce defect detection application, the user can provide the image surface  of steel  from 
+         > In the steel surfacce defect detection application, the user can provide the image surface  of steel  from 
                their side and the application will predict  where the defect are present and clssify it non-defected by 
                showing no segemented images.
          > For the epoxy viscosity prediction  application, the user can input the epoxy  data  and the application will 
@@ -45,13 +45,13 @@ You can access it at  http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com
 
 # DATA SOURCE 📊
 
-## steel surface images https://www.kaggle.com/competitions/severstal-steel-defect-detection/data
+### steel surface images https://www.kaggle.com/competitions/severstal-steel-defect-detection/data
 
-## Eposy resin data https://www.kaggle.com/datasets/priyanshu594/eposy-resin-dataset
+### Eposy resin data https://www.kaggle.com/datasets/priyanshu594/eposy-resin-dataset
 
-## steel strength data https://www.kaggle.com/datasets/priyanshu594/steel-strength-data
+### steel strength data https://www.kaggle.com/datasets/priyanshu594/steel-strength-data
 
-## casting images data https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product
+### casting images data https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product
 
 ## concrete strength data https://www.kaggle.com/datasets/vivekgediya/concrete-data
 
