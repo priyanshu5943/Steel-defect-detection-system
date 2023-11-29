@@ -1,15 +1,39 @@
-# materials science app and steel surface defect detection 🌿
-Steel is one of the most important building materials of modern times. Steel buildings are resistant to natural and man-made wear which has made the material ubiquitous around the world. To help make production of steel more efficient, this competition will help identify defects.
+# MATERIALS SCIENCE WEB APP 🛠️
+A web app that can help mettalurgist in various fields reducing their workload and increasing efficiency.
 
-Severstal is leading the charge in efficient steel mining and production. They believe the future of metallurgy requires development across the economic, ecological, and social aspects of the industry and they take corporate responsibility seriously. The company recently created the country’s largest industrial data lake, with petabytes of data that were previously discarded. Severstal is now looking to machine learning to improve automation, increase efficiency, and maintain high quality in their production.
+# DEPLOYMENT 🚀
 
-The production process of flat sheet steel is especially delicate. From heating and rolling, to drying and cutting, several machines touch flat steel by the time it’s ready to ship. Today, Severstal uses images from high frequency cameras to power a defect detection algorithm.
+This website is deployed at AWS
+You can access it http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com:8080
 
-In this competition, you’ll help engineers improve the algorithm by localizing and classifying surface defects on a steel sheet.
+# DEMO
+   > Steel defect detection 
 
-If successful, you’ll help keep manufacturing standards for steel high and enable Severstal to continue their innovation, leading to a stronger, more efficient world all around us.
-following is an example of showcasing the result the left side contain a random steel image and right side is predict mask, based on the defect location the algorithm di pretty good job in locating them.
+# MOTIVATION 💪
 
-![Screenshot (8080)](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/b4d1c2d6-4cba-468d-a7d1-89ef7a9295c5)
+> Materials are one of the most important building block of modern world.
+> Its difficult and inefficient to repeat the tedious task of experimenting everything in the lab moreever it is costly.
+> The ongoing AI revolution has the potential to transform society far beyond  its current applications in science and technology. A key driver of this  revolution is machine learning (ML), for which increasingly sophisticated  methods have been developed.Through which the accelerated materials discovery can be achieved as well as automating the materials and steel industry.
+> In this project, I present a website in which the following applications are implemented; steel surface defect detection , casting defefct detection , epoxy viscosity prediction , steel strength prediction and concrete strength prediction.
+         > In the steel surfacce defect detection application, the user can provide the image surface  of steel  from their side and the application will predict which 
+           where the defect are present and clssify it non-defected by showing no segemented images.
+         > For the epoxy viscosity prediction  application, the user can input the epoxy  data  and the application will predict what is the visoosity of the epoxy.
+         > For the steel strength predictor application, the user can input the steel  data the conent of each metal and alloys  and the application will predict what the 
+         is the strength of the given steel.
+         > For the concrete strength predictor  application, the user can input the concrete  data and the application will predict whaat is the strength of concrete
+         > for the casting defect detection the user can provide the castin object and application can predict whether the object is defected or not.
 
+
+# DATA SOURCE 📊
+
+steel surface images https://www.kaggle.com/competitions/severstal-steel-defect-detection/data
+Eposy resin data https://www.kaggle.com/datasets/priyanshu594/eposy-resin-dataset
+steel strength data https://www.kaggle.com/datasets/priyanshu594/steel-strength-data
+casting images data https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product
+concrete strength data https://www.kaggle.com/datasets/vivekgediya/concrete-data
+
+
+
+# Built with 🛠️
+python
 
