@@ -7,7 +7,19 @@ This website is deployed at AWS
 You can access it at  http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com:8080
 
 # DEMO
+
+   ## steel surfacce defect detection 
+   ![image](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/1f30d83f-c7a8-42e8-8517-3239d0ca996a)
+
+   ## casting defect detection
+   ![image](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/5e0954a3-4952-421b-a631-a3dc1db16f5a)
+
+   ## epoxy viscosity prediction
+   ![image](https://github.com/priyanshu5943/Steel-defect-detection-system/assets/105591596/8c3f00dd-02f9-4261-a5d1-05b57fce9bbd)
+
    
+
+
 
 # MOTIVATION 💪
 
@@ -27,13 +39,17 @@ You can access it at  http://ec2-16-170-231-140.eu-north-1.compute.amazonaws.com
 # DATA SOURCE 📊
 
 ## steel surface images https://www.kaggle.com/competitions/severstal-steel-defect-detection/data
-Eposy resin data https://www.kaggle.com/datasets/priyanshu594/eposy-resin-dataset
-steel strength data https://www.kaggle.com/datasets/priyanshu594/steel-strength-data
-casting images data https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product
-concrete strength data https://www.kaggle.com/datasets/vivekgediya/concrete-data
+
+## Eposy resin data https://www.kaggle.com/datasets/priyanshu594/eposy-resin-dataset
+
+## steel strength data https://www.kaggle.com/datasets/priyanshu594/steel-strength-data
+
+## casting images data https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product
+
+## concrete strength data https://www.kaggle.com/datasets/vivekgediya/concrete-data
 
 
 
 # Built with 🛠️
-python
+
 
